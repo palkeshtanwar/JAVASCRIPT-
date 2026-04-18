@@ -15,3 +15,24 @@ console.table([name, age, loggedIn])
 //symbol => uniqe 
 
 //OBJECT =>
+
+
+// PRIMITIVE AND NON PRIMITIVE
+
+//1. PRIMITIVE
+
+// 7 TYPES =>    1. STRING
+            //   2. NUMBER 
+            //   3. BOOLEAN
+            //   4. NULL 
+            //   5. UNDEFINED 
+            //   6. SYMBOL 
+            //   7. BIGINT 
+
+// REFERENCE (NON PRIMITIVE) =>
+                       // 1. ARRAY
+                       // 2. OBJECT
+                       // 3. FUNCTION             
+            
+
+                       
