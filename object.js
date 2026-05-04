@@ -30,13 +30,13 @@ const tinder = new Object() // => singleton object
 const tinder2 = {} // => non singleton
 
 
-console.log(tinder2)
+// console.log(tinder2)
 
 tinder.id = "abc123";
 tinder.name = "Lambo";
 tinder.isLoggedIn = false;
 
-console.log(tinder)
+// console.log(tinder)
 
 // MEARG OF OBJECTS 
 
@@ -47,8 +47,8 @@ const obj3 = {obj1, obj2}
 const obj4 = Object.assign({},obj1, obj2)
 const obj5 = {...obj1, ...obj2} // => spred operator 
 
-console.log(obj4)
-console.log(obj5)
+// console.log(obj4)
+// console.log(obj5)
 
 // OBJECTS IN ARRAY 
 
@@ -73,6 +73,37 @@ const user = [
 
 user[1].email
 
-console.log(Object.keys(value))
-console.log(Object.values(value))
-console.log(Object.entries(value))
+// console.log(Object.keys(value))
+// console.log(Object.values(value))
+// console.log(Object.entries(value))
+
+// PART =>3 
+
+// DESTRUCTURING 
+
+const course = {
+    coursename: "hindi js",
+    price: 999,
+    courseInstrucutore: "palkesh"
+}
+const {courseInstrucutore: Instrucutore} = course
+console.log(Instrucutore)
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "palkesh")
+
+// API =>
+
+ {
+    "NAME": "palkesh",
+    "coursename": "js hindi"
+    "price": "free"
+ }
+
+ [
+    {},
+    {},
+    {}
+ ]
