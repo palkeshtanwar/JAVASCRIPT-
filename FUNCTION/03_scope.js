@@ -36,3 +36,15 @@ if(true) {
 }
 
 // console.log(user);
+
+// IMPORTENT => 
+console.log(addone(6)) // IN THIS TYPE WE CALL FUNCTION BEFORE EXECUTION
+function addone(num) {
+    return num+1
+} ;   
+
+const addTwo = function(num) { // IN THIS TYPE WE CAN'T
+    return num+2
+}
+
+console.log(addTwo(6))
